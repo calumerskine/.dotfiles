@@ -1,0 +1,12 @@
+[core]
+	editor = code --wait
+
+[user]
+	name = Calum Erskine
+	email = calum.erskine@live.co.uk
+
+[rerere]
+  enabled = false
+  
+[rebase]
+  autosquash = true
