@@ -2,8 +2,8 @@
 
 # zsh
 alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias aliases="code ~/.oh-my-zsh/custom/aliases.zsh"
+alias ohmyzsh="code ~/ohmyzsh"
+alias aliases="code ~/ohmyzsh/custom/aliases.zsh"
 
 # dotfiles
 alias config='/usr/bin/git --git-dir=/Users/calumerskine/.dotfiles/.git/ --work-tree=/Users/calumerskine'
