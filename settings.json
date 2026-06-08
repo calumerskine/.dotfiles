@@ -1,0 +1,158 @@
+{
+  "editor.formatOnSave": false,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.lineHeight": 30,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+      "other": "inline",
+      "comments": "inline",
+      "strings": "on"
+  },
+  "editor.renderWhitespace": "none",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.showSnippets": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.quickSuggestionsDelay": 1,
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "editor.suggest.preview": false,
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": "comment",
+              "settings": {
+                  "fontStyle": ""
+              }
+          }
+      ]
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit",
+          "source.removeUnusedImports": "explicit"
+      }
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit",
+          "source.removeUnusedImports": "explicit"
+      }
+  },
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.fixAll.pylance": "explicit",
+          "source.convertImportFormat": "explicit",
+          "source.unusedImports": "explicit"
+      }
+
+  },
+  "eslint.validate": [
+      "typescript",
+      "typescriptreact"
+  ],
+  "eslint.nodePath": "/Users/calumerskine/.nvm/versions/node/v20.18.3/bin/node",
+  "eslint.runtime": "/Users/calumerskine/.nvm/versions/node/v20.18.3/bin/node",
+  "eslint.timeBudget.onFixes": {
+      "warn": 1500,
+      "error": 3000
+  },
+  "eslint.timeBudget.onValidation": {
+      "warn": 1500,
+      "error": 3000
+  },
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "git.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.inlayHints.parameterNames.enabled": "none",
+  "typescript.validate.enable": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "window.restoreFullscreen": true,
+  "window.commandCenter": false,
+  "window.newWindowDimensions": "fullscreen",
+  "workbench.colorTheme": "Gruvbox Light Hard",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.fontAliasing": "auto",
+  "workbench.startupEditor": "none",
+  "extensions.autoUpdate": false,
+  "prettier.requireConfig": true,
+  "emmet.useInlineCompletions": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.classAttributes": [
+      "style",
+      "class",
+      "className",
+      "headerClassName"
+  ],
+  "tailwindCSS.classFunctions": ["tw", "tw.color", "tw.style"],
+  "godotTools.lsp.serverPort": 6005,
+  "[gdscript]": {
+      "editor.defaultFormatter": "geequlim.godot-tools",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+  },
+  "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+      "*.sqlite": "${capture}.${extname}-*",
+      "*.db": "${capture}.${extname}-*",
+      "*.sqlite3": "${capture}.${extname}-*",
+      "*.db3": "${capture}.${extname}-*",
+      "*.sdb": "${capture}.${extname}-*",
+      "*.s3db": "${capture}.${extname}-*"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "cursor.cpp.disabledLanguages": [
+      "markdown",
+      "plaintext"
+  ],
+  "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+      "*.docx": "default"
+  },
+  "godotTools.editorPath.godot4": "/Applications/godot",
+  "files.associations": {
+      "*.toml": "markdown",
+      "*.css": "tailwindcss",
+  },
+  "workbench.hover.delay": 1000000,
+  "python.languageServer": "Pylance",
+  "claudeCode.selectedModel": "default",
+  "claudeCode.useCtrlEnterToSend": true,
+  "workbench.sideBar.location": "right",
+  "claudeCode.preferredLocation": "sidebar",
+  "window.autoDetectColorScheme": false
+}
